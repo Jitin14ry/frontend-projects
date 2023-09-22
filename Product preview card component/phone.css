@@ -1,0 +1,102 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+}
+
+.box {
+  background-color: hsl(30, 38%, 92%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.box1 {
+  display: grid;
+  /* justify-content: center; */
+  height: 100vh;
+  align-items: center;
+}
+
+.box2 {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 88vw;
+  height: 90vh;
+}
+
+.box2-top {
+    background-image: url(images/image-product-mobile.jpg);
+    background-size: cover;
+    height: 35vh;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.box2-bottom {
+  height: 65vh;
+  background-color: white;
+}
+
+.content {
+    padding: 25px;
+  
+    & h5 {
+      font-family: Montserrat;
+      font-size: 12px;
+      letter-spacing: 3px;
+      font-weight: 100;
+      color: #6c6c6c;
+    }
+    & h2 {
+      font-family: Fraunces;
+      padding: 25px 0px;
+      font-size: 30px;
+      letter-spacing: 0px;
+      font-weight: 700;
+      line-height: 28px;
+    }
+  
+    & p {
+      font-size: 15px;
+      font-family: Fraunces;
+      padding-bottom: 25px;
+      color: #6c6c6c;
+    }
+  
+    & h1 {
+      color: hsl(153, 29%, 42%);
+      font-family: Fraunces;
+      font-size: 30px;
+    }
+  
+    & p2 {
+        font-size: 15px;
+      text-decoration: line-through;
+      color: #6c6c6c;
+
+    }
+  }
+
+  #btn {
+    width: 75vw;
+    height: 6vh;
+    gap: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(153, 29%, 42%);
+  
+    & p {
+      padding: 0%;
+      color: white;
+    }
+  }
+  
+  #btn:hover {
+    background-color: rgb(29, 72, 29);
+  }
