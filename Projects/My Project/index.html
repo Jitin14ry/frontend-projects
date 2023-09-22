@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width : 1260px)" href="phone.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="head">
+      <div class="container">   
+        <div class="logo">
+          <img src="projectIMG/Explora11.png" alt="Logo" />
+        </div>
+        <div class="search">
+          <button type="submit" id="btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <input type="search" class="s1" placeholder="Search for projects" />
+        </div>
+        <nav class="navigation nav-links active" id="nav-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <!-- <li><a href="#">Blog</a></li> -->
+            <!-- <li><a href="#">Resources</a></li> -->
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <!-- <li><a href="#"><i class="fa-regular fa-circle-question"></i></a></li> -->
+            <!-- <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/menu--v1.png" alt="menu--v1"/> -->
+            <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+          </ul>
+        </nav>
+        <a href="#" class="nav-toggle" id="nav-toggle"><img width="35" height="35" src="https://img.icons8.com/ios-filled/50/menu--v6.png" alt="menu--v6"/></a>
+      </div>
+    </header>
+    <div class="panel1">
+      <div class="box1">
+        <h3>Welcome to ExploraTech - Ignite Your Engineering Creativity!</h3>
+        <div class="box1content">
+          ExploraTech is your gateway to a world of innovation and engineering
+          excellence. Designed exclusively for engineering students, our online
+          platform is your go-to resource for nurturing your project ideas and
+          turning them into reality.
+        </div>
+      </div>
+
+      <div class="box2">
+        <img src="projectIMG/Screenshot 2023-09-19 013958.png" alt="" />
+      </div>
+    </div>
+    <div class="panel2">
+      <div class="line1">
+        <img
+          src="data:image/png;base64,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"
+        />
+        <h2>What We Offer:</h2>
+      </div>
+      <div class="line2">
+        <div class="boxes">
+          <div class="boxdata1">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEKklEQVR4nM2aXYhVVRTHf2PToFZ+EIp9+TVDOBWWKCQUyDykPtlDg4KgovUiKhgUhBGGD+WDmDFjOMmAGNSD0EMoZUaJnw9+gIpOkXr9QExLq1Gz0fTIqnVltzn7nL3v2efqHxbDHPZed//uPnutvde+8J9GAweAJUAj9Vc/YArwKdAD3AYStQowy8fJaG1c7XgMmE599BCwDDhtfH6SYmt9nB1wdN4CjCsJoAFYAJzLAUiAncDDPk6XZDi5CXQBwyJCPAJ86QGQALu0vZdkTRzNcbgtEsQTugaSmDNhanqO026Kqwk4WCZEVVsyHL9Dcb1ZDwh0Yd9wOK9odCuyuH/2gLgKDCKC1mR8SBGYJz1n4x/g+QC/Mp5v0vLMUF3Y3fo6VSLBvOgJkgAXgfEePscAp7TPHh/iGDAvBIAkwK85MzPWSqJ/+gxiJHDC+qDT6sxXAzQnhcBcBial+BoFnLTa9voOJMbM/BAIkgC/ARMMH83AmZR2ZwPGURhmXg0gCXAJeFlftbOONl+HgBSFaUx5JWLZu6EgRWDaa1gniac9R40KDQCvZSTborafgvKdmTJnIgFmFwXxgRmii1We/w38BPRFhDgEPBADxAdmMrAIeFD/l79zNIkVgbgNtMWC8IWpRq1RRk3gJeB6AZCPY0P4wIj9qM96DMC3a4TYZsxwXWHsZ3LAEg03nklAyDupin2uW57SNCQDxrY+LQGJ3VIIiW5ybpkGbLS2InJO+QqYSslq1+g02RPmiA5a9KH2T5N884Opk8xkJ9HJlTBtW68zcl+o3Uh2vRqRmjRf+CzadRpCW+4XiAQ4rM9ba4xEO4Cn7jWE2BXNsk1GqA21SsEih1NNuoBlHczX+tfrGXunN7SfDGYf8Lsu7HsG0wp8BvwROIhezdimJDp94mjfCZwvA6YRWFVwt3pdKzAjLJguq12HUU+LCjMA2FoAwGXL1f8r1vPzRrU/GkwD8EUJEDd1faG1qqRsmHklQdgZe3eZMP0dJRbzBusj3QO1euyjXBBonqiUBfNqxllYzg+28vZRLgiz/6kyYLodA1qWMxgXzOKsb61MmD2OAU3MGcw4R7+F+GlMbJiTKQ0veOxM2yIUy6LCHEtpJFk9TyscIHK5GqKRGV/ms9rmaccN8P9qad/VGO52OECqeSNE9jVBEjAzPdWb3/cdA8qCGah1KruPHFsfqwHEF6bDMdb30Cp34gHToNn5LWC7o/3eGiFMmDMOmM6cQt2/2pwDs9ExrbbNoLiacxJ0mt29sXoGuBbY2TbZcMZScyCMvJJ3NdP6VU6IHQcejQhShXFd7Ni2AUtS2f4rEOKghtAy1OIB0+e6H5HF/70HgACv1J8qlamWjB8bSBlqbp4Dubdbrd/4L0ou7+K3wFLg8ZIBTEkV8wOtlcnrL0fwTeZF6R26916Eq7P44wAAAABJRU5ErkJggg=="
+            />
+            <h3>Project Support :</h3>
+          </div>
+          <p>
+            Explore a wealth of resources, guidance, and tools to bring your
+            engineering projects to life, whether you're working on a classroom
+            assignment or a personal endeavor.
+          </p>
+        </div>
+        <div class="boxes">
+          <div class="boxdata1">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD50lEQVR4nO2Xa0xTdxyGz9R4y7IlujmNcd82FTc2VzKoo7RUS9FBGmrp4SKyqRHj0JCZoGTSo0EXMw1+ETZkCF2RltILp8zMLGA51aUThKEOFTcocw6ZKysONztW+xqqUxSpdLa0LOdN3u/P8z+//+UQBBs2bPyahATTzLVc/fupkTUGKUfz06rXVC7JG0cHiFDNezz1gjXLjLlkpLYxaWlVn3iREqKFFSOayTdPDzYrkRymnZrBM0jSovQlsojqC4nhR52Pg10rUOGTbDWOFdegx2pEN2PE4A+mj2D7cm4QsDEpnasrlC7V9IoXK92PwsYtrkDWykoU5WpgUenwe1st0G16fG0m160OWlPyoXmDgmSK8uXMzoDjr+ZU24YDi8MqsDmhEsU71GC+0OHGOXp04G4THGdptOhr0VT91belueZOKsUCBXm3u5LrbyuXp2+pEKWvCQh8crJ2sjhM5QHPilfhG7Uety49AbiNhlVdi6o9ddif9fV9WA+wvAGFkk9xRLwJhphlqI+cDfPbz6I+ajYoPjXF7wIU3zwl4x2DR2BDnApttAFu29iBKdKM/Ull+Fy8BTqBEPVRczzA/7aR+zxaMyNwJjUc5fzM6QERGALJjj+OjGgj0rh6ZL+rR2leLSoLfAce6umkV3GZWg27bhdcl7QPFqOL/hHd9B5cMb7udwFvpUgGhxL2eoAbIl8YAXxqxTy054jQU74NzpZyr+OHLtpxs7Gs42pOms0heGmwR/jKjYALaISJI8biTEo4Oj9ORf/xA3B3jb5n3J1GDJiL0Vu0Hde3Sv5wxU4DeMRDDbjAiXtj0iwLw286Cq6OGi/HKI2bls/QW5KHX7dKMCh6bgTwuAs0xXI8Ak3ShXAc2+eBHA7tbFXiumo3ruVl4M/El58IjPEWcPOeQadwCZpjI2AVcNAijYVt53pc270OjtS3fAbGeAs8LSBYAS9hvwDPh3FZPhXIfhM4nAl8VzxB9oBsLlAQD9DbgZ+1gL3uQUNS4NFVtteN3pAR8LbK9okgMFZg+0QX6NEDDQXAQRmQtmCCCLSXAlUfADuigbgZIXoTj2GVEdJPie8PA8qNQA7n7inEPiV8CPuU4LGvUfgyMewIgf2hIfx7DwwlX878EqxfSnfMpKcXUJDMegVpcQVDoE8w72/CH6FSLOH5cqZQQVpOKOSWKwqS+WsIPl9uuRgoeLtgvtO6UrqNCHT8Cd0vmDN4cQW3zSqSbQ44uL8E+oMBPTwD/Fmu/zIe7SKeNWjQw9MqWlV2mzd5TNDn4/iNjJiUEKGWk2JSekEU3XxVuKivX/DiP86YGe6Qh2bD5n+SOzSd4Oxon7f/AAAAAElFTkSuQmCC"
+            />
+            <h3>Comprehensive Knowledge:</h3>
+          </div>
+          <p>
+            Explore a wealth of resources, guidance, and tools to bring your
+            engineering projects to life, whether you're working on a classroom
+            assignment or a personal endeavor.
+          </p>
+        </div>
+        <div class="boxes">
+          <div class="boxdata1">
+            <img
+              src="data:image/png;base64,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"
+            />
+            <h3>Community Connection:</h3>
+          </div>
+          <p>
+            Connect with like-minded students, mentors, and professionals in the
+            field. Share your projects, collaborate, and tap into a supportive
+            network.
+          </p>
+        </div>
+        <div class="boxes">
+          <div class="boxdata1">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAHtUlEQVR4nO2ZeVCW1xXGT1VUgohLUNHgrlMTp1Pr2EzT6TQzWca22RARBIw1iVVxSdo6oVaT2qY1ahorMdamVRMtgguIgKAIRBaDkoBLkIlg3UATtbU0CQm2hu/XOe+5ojZ/lo/gDHfmHdD5Pt/z3PMs515FOlbHan+LGPk3kyRXbtfF04L3TJVmpslguZ0WEyWUOQI/E5gtECsQIWFyuyyipYIFAksFlggkWCfkdlnEio+FAisFXhH4pcAsgUmSLO198bgM9bi/WGC1wHqB5QI/F4gTn7T3RYxcZb6jzzqBLQJ/EfiVwEyB6dJL2usiQn7k7f7zbtc3CmzrbCB+L/CcJ+aSls9HyiPSXhbjJcDj/rNu95MENgtsD4DUTrDBaWGafNHynXhp9h6Rr321xX9fuhAtzZ51Lnbi/ZPA1s6Q3h22BUCyo9G0GzpghviYeyuoti9+vnQjRpo9fv9C4HcCa9zup3WFXT0grTukCPxW4Bmh5bszxccigXkCUfLPr4Y2mrTPCJ5tviTwmuN+SifIuAOye0JGEGztAisE7VLL9+c5UEudzUZIYtsCmCLXvBcvdEWobb6p1BHY0RWyQiCnF2T2gO1d4VXBc6gICWOSpHjWutrpRfUx/QY4/xcfIYeZ4caF68Xrzqeq83SBjEDI7QN77oTsEEjvBn9wn1exP+00sc7R7WUHLlKy/F98vIzkSWeLWsQqMZfRnVfBqnB19/eGQl4/yO1rdPqjwAsu1Ba5lN6koDuZ6FVDT7ZB2DFFmrwhLVGM15q2Kc4ytfiMYNjdFwoGQH5/68KuIKOX5sEy9/MNBR1gHdvsOqlm8JAE+a/4eAkiTuCn7oWvu7TVItIDIUuL7wN7+8Hbg6BwoHUhs6fR66+Oapsc6PTuppctzn51CIyUl/wH4AnZ6LlOonvhmy5t1Sp1l7N7GXUKwqB4CBSFQ34Y7A6xQjUbtnayn2kBJnAFoTRa5QBMlir/AYiST7zwedH5ve7ijm6QGQS7exld8gfA/nAoHQ6lQ+HtuyCnj3Voh9txLXpXsNnszjsM0Gon8ig55U8AzR6A37i01d3XArJc8fv6G3VKhkPZaCgdAUVDYE+o0Sujh4VbVk/IvdNA69+ldrEOKDWjpM5/AOLE57V5mXOe636vTpM3AAoGQfFQKBsJ5ePg4CgoHWbAtAtasNIsp/cNh8oMhtTOlhPqbJMlzX8AporPa/PLTojK/d29YV8/E6zy/p2R8N634MgD8N44+7MCyws1cee5TqlO9oQalVKco+np7RGZ4D8A0eLzdklfptan/q7U8UQ7GA4Mh/J74NhEqI6Gow/BodGwf7CJWT9XMBAKw00n+/rZqLHZdXWmH9KYyZJ+E4BrXhCtcJaofM5Xywy34g+OgcP3Q3U81CZAdSxU3Gs0Kg63zxUNhpKhpo29CiDQ6Ki2/JQBYIocaz0APxaIllXe7zHyn5YOXAewLwxKRsA7o6Hyu1AdCbXPwpmlUDMPjj1sglaAJcPsOTASShRAKOwINEPQC4DpAjHyoc5YrQdAZxQtOlaaW0Js5XUAwZa4B0ZB5b1Q9RjUzIGzv4b6tXD6RaiOg/JvGoiyUXBwNJSPMYvd09dCcK07SyS44TCxNQEkuPYucsUvcqNAsuuA2qYWdHQi1DwFZ16A82/ApRSoT4ITP4Ej9xuVKsYbxSq/bYLP6W0Wuta9Y6nr7vOtCWC6+LzBK8m5jz76Qh0N1AILB0HFONvpM4vhfBJcTocrhXA5Gf62EKpjoOpxOB4D1dOg8j4TcWawhdh6F4yvuxkpoRWHOmKkwTt4vOW8X5/NLsS0AHWVwxOgdhbUrYCLW+BfRfDpUbiSa1qoXQA18+H0EqiZZZ0oDLNM0FFbN0PnIT346L8dJTWtByBO7vZo402cXY2zGmA7u0NOCOQPhIoJcHI+XFgPV/Kh8QNoOgsfH4L6NXBuOVxYY7+fmA0H77ZsyNVJNdhmIh34NFe0EyKdWg2AB2KW+Lwp0hsbQmw4y+5tItRZp/wb5jwXk+GTI9B0Dq7WQ+P7cGkrXNwO/8iG82uheiqUjTE7zQ+zLMjrbwcg3ZgFfjgTEC1ZnsD0Bd7AFmZDmwaS+vm7Y6EmAS5ug89OWvH6fF4LDSXQWAkfl0Ldq6YHFbQmdOkIKB7u9NDTTmiR8oNWB+CBmC0+T2Dagf1DbNrUIsq/DkcfgJq5cDkVms7cAKCdaDoNV89BQzGcfQVqZsPxCDjyIBz+Hhy6xw4+StHZfrwEJl7u8y6u1P81QZUGVU/AiZlwciHULYO/Z9wK4GYgDQXw4QaoWwmnVNhz4f2JUDQMtgdakPn7kosoSfPOteoURXfZrHMqET7aYBT5/CQ01X0ZwNU6aKyChv1wOQ3qVsEHM6BsLOwMMv+PlfF+Lf4mELu8+08VtWZA1aOWvFcKzHm+VPxNID49Bh+9BSfmQPlYczW9GIiVB9uk+BYQsTJew8a7xE0Phnc1B56DS1ugsdY4/7/Ff3YcLrwG1ZNh3yD4s5fsPr2abNPibwEyVQrV9rykVlqpmxx/GE4tgfp1ZqvnkizIKr9jh5qN7kgaJ5ukvSymyA+ZIde8HVU+6/FQ74HUtTSYlrf8H8EX7epavWN1rI7VseT/Xf8FZJqZGyGZ0kQAAAAASUVORK5CYII="
+            />
+            <h3>Stay Updated:</h3>
+          </div>
+          <p>
+            Stay at the forefront of technology trends with our regular updates,
+            news, and insights into the ever-evolving world of engineering.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="panel3">
+      <img
+        width="32"
+        height="32"
+        src="https://img.icons8.com/external-kmg-design-flat-kmg-design/32/external-loud-speaker-cinema-kmg-design-flat-kmg-design.png"
+        alt="external-loud-speaker-cinema-kmg-design-flat-kmg-design"
+      />
+      <h2>Join the ExploraTech Community Today!</h2>
+      <p>
+        Empower your engineering journey with ExploraTech. Whether you're a
+        budding engineer or a seasoned enthusiast, we're here to fuel your
+        passion, answer your questions, and help you excel. Start exploring,
+        learning, and creating with us today.
+      </p>
+    </div>
+    <div class="panel4">
+      <img
+        src="data:image/png;base64,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"
+      />
+      <h2><a href="#">Get Started Now!</a></h2>
+    </div>
+    <div class="footer">
+      <div class="start">
+        <img src="projectIMG\IMG_20220302_200158_230.JPG" alt="" />
+        <p1>ExploraTech</p1>
+        <p>Copyright © 2023 ExploraTech.com</p>
+      </div>
+      <div class="last">
+        <a href="#">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACvElEQVR4nO2ZTWsUQRCGn0P04pLE+3oQs1nBi/h1EPVg9GziX1GTP6CoR2MOGvHjP4gRsxtJBH+Cq7nHk27EGIyXtaWgGoaB+ejpWbsX9oUX9jBVXe9OVXVNN4wxRhRoA0tAF/gM7AOmJoov8dkBFnWt2nEO2Kgx6LL8CFysQ8AhYAX4G0CEUcraj4GJqiKOAu8DCjApbmhMzm8iRCqZAn4ADrsIWYkgaJPBZZfCDlkTpoAS29kyQmJMKZOitOhctAMH+AZoKtcKnm3lCVkKLKSZiOVYwbN38oR0RkjIep6Q7RqC6QPPgRuaqkeU8nseeAHsZtiuqQDh24J1vuQJ2fMQ8Bu4C0xSjCngntpUXW8vb4GqTndSLfE68Ez/tf3EQLgKXEu1+h2PdTNRVYTN7Vlgq4TNZqLrND3EZKJKOtk3cSUn97Nq6bLangcOQgqRmrBvwkVEUsyM+ngQSkhfi5aS6ZRFmbAF0xX+jFqESIu1hW08Oae+XoYQIvsE2p18hTxVXwshhEhdoC3WV4i0ZkE7hJCG2vyqQYj4EDRGXchP9TU56qnVC5la82qzWoOQJ+rrZgghMsWis5OvkKvq61XoDXHTQ4R8WtsN8UcIIUZHccFx4JvniPKwgn1tQg50FEcHwL6D7XfgktpeCD00mtQYP1PydFLS6YTayNfg14prZ8J4iJFR3GJOx46e7jPCT9qdbGHbN1FVhBnWp66kxn0t2iJMa038Gdan7raHY8tdnWJlADypE0BDfy9oi3XtTsb18CH0cZBx4Ls8IYsRBGhK8laekFYEARrHWS8T3QiCND6njBangUEEwZoMDspeK6B3diZSPsIBE5Gm2Jbr1Rt68RjTpU+35Gab+WaWA1/FDTSdKl9PJ3EKeB1ARAc4wxDQ0puidT3CqePgwVJ89XTHvl10tTbGGPwf/APThWw4L8JxcwAAAABJRU5ErkJggg=="
+        /></a>
+        <a href="#">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACd0lEQVR4nO2Zv2sUQRTHP+evwigSrCyiAWOpTXpBxcRcCkn8BVrZif+AjUJQSA5Jo4VpbMQiJtrE/CCojZ3YGEQx9nYaE6PRxOJWBp4Qwu7czuzb3Tm4L3zhmn1vPszsm7fvoKWWgtceoArUgGlgEfgO/BWb35+A58AI0CfPBKGKLGgSWAciR/8BJoAzEqsUXQDeeyw+yQvAYJEAR4BXigBb/QLoyhviHLCSI0QkXgUu5wFgzu9QAQDRFtc03x0TaKwEiEj8QAtmpESISHwnK8SlACAi8ZUs1emn0iLMffFQSraJux/YB7QDncBRYLRBjB/AYR8QrRL7EjiQIt/VFLHmXSHOK0HMAjtS5kwDYjyQFqKidGN/kyOEMsi7tFWsT2k3hh0gXEAioDdNwEklkGOWHN3Afcn1328dYo83gtjr2cXGVZjtFoiNjPF/A7ttIFXFTjZJj5Ry9NhAakpJXltyfCniHZxWSjKXEL8iX4saOaZsIJ8V74847VKKH8lnc6KWmgjkqw1ko4lA1rVBBqT522zbdKQ9wXcd85q1JmrZA+Q0Onri0QIlarFEENNDueT9aAs2WxLINmBNs/wOlwRySPvzt98j4HXpnza7y3Ihdsf4mkfeXhuIacR+eQQtuvyuAW2NtvlpE4BMkEI9TQByKg2IOccfAgZZwEFnAwapUuA4KC+QeTzUKVPxUEBWgIN4yjSE9QBA6sBFMup2ACBDKOleiSCjKOuGwzHTAKlr7kTcX2/LBYAsucx4s3SqMzmCTAEdFKh+y5jTB+SNzJ1L03HgsYxJXUFWZfJoYgQjs8iTwE0pDHHaCTwDbgEn5JmWWiJg/QOlYrQmouYwLQAAAABJRU5ErkJggg=="
+        /></a>
+        <a href="#">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC2ElEQVR4nO2ZW4hNURjHf+Moxj2XyaUkREwywhNlKLdCFCfUFG/uSjEKD+LJLTXnhShvQ5S8MIkXTS4vPJCoCUnCSDMalzOXs7TqU7vdnr332Xutszftf32dztlnrW/91u1b69uQKVOmTBXSNGAFsBVYA9QBOf4RDQeOAa8B5WFfgAsC6afxwCKvB3Owrw3A534AlMt+Ayc9RmgKUAB+AfPcDiYAP4DNFiEOAaWQEMphN4HFwGGgFeiT3697OTkgD4vAcgsQDREAlI99BGq8HN12DelGgxCTgZ8GIdqBWql7GLDS6eyd6896+PYZArliEOIZkAd2AM1AF7DK6ayjn4JXgZExIEbICJsC6XN9P+h2+Mmn8BtgWUSQvOG1oRx2ysvhoxAFb8jWV46OWwAoAUf6c3gmZCV6mlxyLLYgXTQM0QOs93O4MEKv3AW2A6N96m0yDPI9TO/dj1h5t5Q9AawFJgFVjiBoEqQjDMhsg/t9Ubb0t4ZBPvgB/O09rS0eW1ya7KUfyEDgObAHGCcwJiOxSbsTNK3aHX9+HxBXkrRCEEhLChqpQtiuIJD9KWikCmH6BumrUUBnChqqfKwz7DW4MQWNVT52jZDKxQiKlbA8ZSYGWlPQaOVxNNGXqLI0CDifssDYRAzVyu3uW8IQJWBmFID50gP6LnFWomlvgiDNUUeiGviagumk5GQ9nRjanQIIBZwjpnIpOLa0AUMxIJ09eZgQRC+wBIPS6+VyxFRnHGvEknTu9ZZc/itxFKnCsnTCbbXklGwEzBYJyNY1QI78XRYg7slUtg6gMySPLU0nfYKwOhITgZ3AK0sAPaYWdh0wF5gqn/WSdCtIxsLmon4BLMCQaqTR3ZYb7U6yHQUGY0Ez5HBWtAxwGhhDBTRWXvA8NRihHwDbgCEkpFnAXnnp2BYyuusEwRN5vbwpIMGdmKrlglMvW7Fu6DpgqdxhdPI6Uyb+I/0BtL6/+Ljwfj8AAAAASUVORK5CYII="
+        /></a>
+        <a href="#">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADtklEQVR4nO2ZSWgVQRCGP2OCS3CJYoy7uCtiDi6o8aAIikvQi4oGvCiiRo2E6FXJQdxQg4LgUTx4cyPuHhVRD0bcsyDu4IJrTNTnSEMNPOfNm1czb2YSJD8UDNNT1fV3V1dX90AH/l8UAEuBfUAt8Bj4CLSKmOdH0ma+WQL0pp2gC1AGXAJ+A5ZPMToXgFViK3Z0AyqBVwGcTycvga1A17hILAAaQiTglHpgfpQEzNTXREjAKcdl5kNFf+BOjCQskVtAYVgkhst0W20kT8WHrNBP0qjVxtIAFAUl0bWNwsnyCLNAKfpoO3DecsjhICnWy+B2CbspwA7gWRbOmd1+G1As1cGBDN/P05LoptgnBruEoSH0A7gKVACzgNFAvsgYebcROAN8BTYDnR22ihWLXxVilYpRTLf75mlHy+PbAYr+zUB5oouy7Ah9o0pCkaL/F5lmpUwZ1+MiJFKi9GGll5FLSiPLIyRSrvThfDoDBT5K8eoIiRxT+vAL6OlmYKnSwGdZkFFhPPBT6Uupm4H9SmWT56PGSaUve92Ua5XK02Igskzpy1k35afKuMyNgchYJRFT0KbgvULRfBMHhiiJvHNTblUomm86xUBkoiMKPor8cfjT4qZsZ4rZUu+MAPoAA+XZljiIJCNXtoYC6dtUFYOSBjYFn6TxJnAXaJRQeiPPtqwgehz2iIrvScvAzFIKnkjjNUmxWyRPm4p1khw37VGJGjnS11BggmTKRVI575a7MPsIkIKL0rhLqsuDwCngOlAns/FBpnN1xLPRIqPdBDwAbgPngCNyFtrvVaZUKzOFkW8yU2FjncuC9pKdbkbm+jBgpBlYE1KomZJ8j08SRua4GeuuTMFOuSFryXnS0yBfBqMxQL8tXucie504xZxT1soGlM7wW+AEsEFGaiTQK8l2XznHmOvQKikvvgYgYImYkiotSj1SXomcwd8qw65KbihtFMq75iyct5JkYaa015RGsU7apwJfMpAwpNOhJAQy9eKLJyo8DJhcbpcQFyU07J84z4ErwOJMHQDrsyRSrr3duBckLn0gx6MPK4Pc9VOBzwQSLkYSIe4fGwKQSADT/XZ0JI2xT3KxNlgTpx4YFYBITZCO8qTu8tNRZ5/2/di+7PMC8B/09BnLfqG1+yCMP8DDgIdtSOS+nBhDQQ+pNOMmciWKf/F5UmInYiCSAA5FfdExWc4HURGpA2YQE3IlBTc4fvj7xeskfWNrU0zXTSnIkbLldFL54gelorswyz2pAx0gIvwFLXDNiM6zHVAAAAAASUVORK5CYII="
+        /></a>
+      </div>
+    </div>
+
+    <script>
+      const toggleButton = document.getElementById('nav-toggle');
+      const navLinks = document.getElementById('nav-links');
+
+      toggleButton.addEventListener('click', () => {
+        navLinks.classList.toggle('active')
+      })
+    </script>
+  </body>
+</html>

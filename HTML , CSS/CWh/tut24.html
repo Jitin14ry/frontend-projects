@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        /*Margin auto block element me kaam krti h inline me nahi*/
+
+        *{
+            box-sizing : border-box ; 
+        }
+        header{
+            margin: auto ;
+            border: 3px solid black;
+            width: 50%;
+            width: 1200px;
+        }
+
+        img{
+            /*Display block karke margin auto kaam karta h*/
+
+            padding: 10px;
+            display: block;
+            margin: auto;
+
+            /* margin: 12px 222px; */
+        }
+
+        h3{
+            text-align: center;
+            padding:20px;
+            margin : 0px;
+        }
+
+        .container{
+            margin: auto;
+            padding: 20px;
+            width: 1200px;
+        }
+
+        .box{
+            border:red solid 3px;
+            margin: 4px;
+            background-color: grey;
+            padding: 23px;
+            display: inline-block;   /*ek chaar dibbe ya chezzon ko ek line me laane ke liye use krte h*/
+            width:20%;
+            box-sizing : border-box ; 
+        }
+
+
+        /*box-sizing : border-box ; se jo total width hoti h whi rheti h including padding and margin.*/
+
+    </style>
+</head>
+<body>
+     <header class="id1">
+        <img src="https://imgs.search.brave.com/SQp0RQuj-AIGPWuGemodG0fSSnpNiHSyz5GvAeJ22pc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE0/NDc3MTA0NDE2MDQt/NWJkYzQxYmM2NTE3/P2l4bGliPXJiLTQu/MC4zJml4aWQ9TTN3/eE1qQTNmREI4TUh4/elpXRnlZMmg4Tlh4/OGNHbGpkSFZ5Wlh4/bGJud3dmSHd3Zkh4/OE1BPT0mdz0xMDAw/JnE9ODA" height="200px">
+        <h3>This is 24th tutorial</h3> 
+     </header>
+
+    <div class="container">
+     <div class="box">
+        <h4 class="class">Systummmm</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptate. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptate sequi amet consequuntur temporibus quis quaerat fugiat suscipit quas official.</p>
+     </div>
+
+     <div class="box">
+        <h4 class="class">Systummmm</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptate. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptate sequi amet consequuntur temporibus quis quaerat fugiat suscipit quas official.</p>
+     </div>
+
+     <div class="box">
+        <h4 class="class">Systummmm</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptate. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptate sequi amet consequuntur temporibus quis quaerat fugiat suscipit quas official.</p>
+     </div>
+    </div>
+</body>
+</html>

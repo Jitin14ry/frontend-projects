@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      /* CSS Position : static(by default) , relative , absolute , fixed , sticky */
+
+      .container {
+        border: solid 3px rgb(205, 0, 0);
+        height:2000px;
+      }
+
+      .class {
+        border: solid 3px black;
+        padding: 10px;
+        margin: 5px;
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+      }
+
+      #box2 {
+        /* position: relative;
+            top: 20px;
+            left: 30px; 
+
+        Can see the difference between both by commenting out these */
+        position: absolute;
+
+        top: 20px;
+        left: 30px;
+
+        /* position: fixed; Ye fix ho gya h page pe
+        right: 10px; */
+
+        /* position: sticky;
+        top: 3px; */
+
+        /* Margin auto ki madadd se agr hum centre krna chate h to teen condition hoti h 
+        1st is display block honi chaiye
+        fir width set krni chaiye
+        aur margin auto daalni chaiyee */
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="class" id="box1">1</div>
+      <div class="class" id="box2">2</div>
+      <div class="class" id="box3">3</div>
+      <div class="class" id="box4">4</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Pseudo selector & more desiging</title>
+
+    <style>
+        #p1{
+            border: 3px solid black;
+            border-radius: 6px;
+            padding: 5px;
+            text-align: center;
+            width: 700px;
+            margin: 40px auto;
+            background-color: azure;
+
+        }
+        
+        /*hover mtlb jb pointer ko uske upr leke jate h to kya hota h jasie ki color change and etc..*/
+        a:hover{
+            color: black; 
+            /* background-color: blue; */
+            
+        }
+
+        /*Visited means jaise ki site visit krne ke baad color change ho jata h aise color change kr skte h*/
+        a:visited{
+            color: yellow;
+        }
+
+        /*iska mtlb h ki jb click krte h us time pe jo color ho jata h*/
+        a:active{
+            color:blue
+        }
+
+        button:hover{
+            background-color:darkgrey;
+        }
+
+        p{
+            font-size: 18px;
+        }
+
+        
+
+        .btn{
+            
+            background-color:rgb(161, 165, 42);
+            cursor:pointer; /*This is used to make button .... when the poninter goes on this it also become hand*/
+            text-decoration: none; /*This is used to remove the things like underlines*/
+            font-size: 15px;
+            border: black solid 2px;
+            font-weight: bold;
+            
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="p1" class="c1">
+        <h3>Systummm Hh</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, suscipit! Repudiandae harum quidem sunt hic dolorem. Quod dolorem odio modi.</p>
+        <a href="https://www.facebook.com/" target="_blank" class="btn">Read more</a>
+        <button class="btn">Contact Us</button>
+    </div>
+
+    
+    
+</body>
+</html>

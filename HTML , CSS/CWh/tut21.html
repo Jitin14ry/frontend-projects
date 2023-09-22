@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <style>
+
+    *{
+        box-sizing: border-box ;
+    }
+
+    body{
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    #bucket{
+        width: 800px;
+        border: solid purple;
+        background-color: sandybrown;
+        margin : 17px auto ;
+    }
+
+    .item{
+        border : 3px solid black;
+        background-color: lightgray;
+        margin : 10px ;
+        padding : 20px ;
+
+    }
+
+    #A{
+        float: left;
+        width: 48%;
+    }
+
+    #B{
+        float: left;
+        width: 46%;
+    }
+
+    #C{
+        /* float: left; -> If we dont write this then A and B overlap C so to avoid this condition we have to use clear - if A and B have left  
+        then left or they have float right then right  */
+        clear : left; 
+        width: 99%;
+
+    }
+
+    #D{
+        clear : left ;
+        width : 99% ;
+    }
+
+    p{
+        text-align: center;
+        /* text-align: justify;  -> Jo baad me likhi jati h vo maani jati h */
+    }
+
+    h1,h3{
+        text-align: center;
+    }
+
+    
+    </style>
+
+</head>
+<body>
+    <!-- p#frutspara  -> This is a short way used to give  id to para   -->
+    <!-- p#frutspara.para -> This is a short way used to give  id and class to para -->
+
+    <div id="bucket" class="container">
+        <h1>WELCOME TO MY STORE</h1>
+        <div id=A class="item">
+            <h3>Fruits</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facere optio reiciendis ut hic maiores eum libero ex alias deleniti!</p>
+        </div>
+        <div id=B class="item">
+            <h3>Vege</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facere optio reiciendis ut hic maiores eum libero ex alias deleniti!</p>
+        </div>
+        <div id=C class="item">
+            <h3>Snacks</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facere optio reiciendis ut hic maiores eum libero ex alias deleniti!</p>
+        </div>
+
+        <div id=D class="item">
+            <h3>Junk Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facere optio reiciendis ut hic maiores eum libero ex alias deleniti!</p>
+        </div>
+    </div>
+
+</body>
+</html>

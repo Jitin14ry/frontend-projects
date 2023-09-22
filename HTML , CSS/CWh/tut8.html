@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <h2>This is the form tutorial</h2>
+
+    <form>
+        <!-- label can be used here otherwise simple , Name:<input type="text" name="myname" id="name"> , Here ID MUST BE SAME AS GIVEN IN FOR-->
+        <label for="name"> Name : </label>
+        <input type="text" name="myname" id="name">
+        <br>
+        <!-- <hr> :- This can be used for horizontal line -->
+        <br>
+        <label for="roll no"> Roll_no : </label>
+        <input type="number" name="mynumber" id="roll no">
+        <!-- Roll_no : <input type="number" name="mynumber" > -->
+        <br>
+        <br>
+        Email : <input type="email" name="myemail">
+        <br>
+        <br>
+        Date   : <input type="date" name="data">
+        <br>
+        <br>
+        <label for="101">
+            <input type = "radio" value="Class X" name="class" id="101"> Class X
+        </label>
+        <label for="102">
+            <input type = "radio" value="Class XI" name="class" id="102"> Class XI
+        </label>
+        <br>
+        <br>
+        Are u eligible : <input type="checkbox" name="myeligibility" checked>  <!--Here checked is used to check by default means yes by default-->
+        <br>
+        <br>
+        Gender : Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender">
+        <br>
+        <br> 
+        Write about yourself : <br> <textarea name="mytext" placeholder="This is a feedback"></textarea>
+        <br>
+        <br>
+        <label for="car"> Car: </label>
+        <select name="mycar" id="car">
+            <option value="Ind">Indica</option>
+            <option value="Swift">Swift</option>
+            <option value="Fortuner" selected>Fortuner</option> <!--Here selected is used to select car by default-->
+        </select>
+        <br>
+        <br>
+        <input type="Submit" value="Submit Now">
+        <input type="Reset" value="Reset Now">
+        <br>
+        <br>   
+        <label id="100">
+            Are u Eligible :
+            <input type="checkbox" id="100">  
+        </label>
+        <label id="200">
+            Are u Eligible :
+            <input type="checkbox"  id="200">  
+        </label>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search bar </title>
+
+    <style>
+        .nav1{
+            border: black solid 3px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 15px;
+        }
+
+        .nav1 ul{
+            overflow: auto;  /* when we float something then it overflow from the parent and the bg color disapper so this is used to get back the 
+            color */
+            
+            text-decoration: none;
+        }    
+
+        .nav1 li{
+            float: left ;
+            /* display: inline-block; */
+            list-style: none;  /* This is to remove the li bullets or etc */
+            padding: 10px ;
+            
+        }
+
+        .nav1 li a{
+            text-decoration: none;
+            color: beige;
+            padding: 10px;
+        }
+
+        .nav1 li a:hover{
+            color:brown;
+        }
+        
+        .search{
+            float: right;
+            color: rgb(255, 255, 255);
+            padding: 5px 75px ;
+            font-size: large;
+
+        }
+
+        .nav1 input{
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 5px;
+            width: 200px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <nav class="nav1">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <div class="search">
+                    <input type="text" id="s1" class="search1" placeholder="This is a search box.">
+                </div>
+            </ul>
+            
+        </nav>
+    </header>
+</body>
+</html>
