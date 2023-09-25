@@ -19,8 +19,8 @@ body{
 .box {
   display: grid;
   border-radius: 10px;
-  height: 400px;
-  width: 900px;
+  min-height: 400px;
+  max-width: 900px;
   margin: auto;
   grid-template-columns: 1fr 1fr;
   background-color: hsl(244, 38%, 16%);
