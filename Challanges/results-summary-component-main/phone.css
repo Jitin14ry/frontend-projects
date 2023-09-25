@@ -1,0 +1,8 @@
+.card{
+    grid-template-columns: 1fr;
+}
+
+.card .top {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
