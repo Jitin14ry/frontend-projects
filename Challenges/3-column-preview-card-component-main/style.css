@@ -26,17 +26,23 @@ body{
 
 .box1{
     background-color: hsl(31, 77%, 52%);
-    
+    .btn{
+        color:hsl(31, 77%, 52%) ;
+    }
 }
 
 .box2{
     background-color: hsl(184, 100%, 22%);
-
+    .btn{
+        color: hsl(184, 100%, 22%);
+    }
 }
 
 .box3{
     background-color: hsl(179, 100%, 13%);
-
+    .btn{
+        color: hsl(179, 100%, 13%);
+    }
 }
 
 .same{
@@ -61,4 +67,15 @@ body{
     border-radius: 20px;
     border: none;
     font-family: 'Lexend Deca', sans-serif;
+}
+
+@media screen and (max-width:376px) {
+
+    .box{
+       display: flex;
+       flex-direction: column;
+       height: 100%;
+       margin: 50px 20px;
+    }
+    
 }
