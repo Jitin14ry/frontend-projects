@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(images/bg-pattern-top.svg) , url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat , no-repeat;
+  background-position: right 49vw bottom 36vh , left 46vw top 52vh ;
+  font-family: Kumbh Sans;
+}
+
+
+.box {
+  height: 330px;
+  min-width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: black ;
+}
+
+.half{
+    background-color: white;
+    height: 260px;
+}
+.part1{
+    height: 124px;
+}
+.part1 img{
+    width: 300px;
+    height: 124px;
+}
+
+.part2{
+    display: flex;
+    justify-content: center;
+}
+.part2 img {
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 5px white solid;
+}
+
+.l1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    color: hsl(229, 23%, 23%);
+    & span{
+        color: hsl(0, 0%, 59%);
+        font-size: 16px;
+        margin-left: 10px;
+        font-weight: 100;
+    }
+}
+
+.l2{
+    font-size: 14px;
+    color: hsl(0, 0%, 59%);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+
+.line1{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items:center;
+}
+
+.part4{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items:center;
+    font-size: 10px;
+    padding-top: 13px;
+    color: hsl(0, 0%, 59%);
+    .num{
+        color: hsl(229, 23%, 23%);
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
