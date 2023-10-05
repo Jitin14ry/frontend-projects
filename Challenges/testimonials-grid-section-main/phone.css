@@ -1,0 +1,13 @@
+
+
+.container{
+    display: flex;    
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 70px;
+}
+
+.box1{
+    background-position: 213px 0px;
+  background-size: 20% 39%;
+}
