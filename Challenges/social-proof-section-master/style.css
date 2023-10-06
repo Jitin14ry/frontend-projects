@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: League Spartan;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/bg-pattern-top-desktop.svg) , url(images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: left 0 top 0, right 0 bottom 0 ;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.box {
+  & h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 40px;
+    padding-right: 160px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  & p {
+    font-size: 15px;
+    padding-right: 130px;
+    color: hsl(303, 10%, 53%);
+    line-height: 20px;
+  }
+}
+
+.box2 {
+  padding-top: 30px;
+  .line {
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 25px;
+    width: 380px;
+    height: 30px;
+    margin-bottom: 10px;
+    & img {
+      margin-right: 5px;
+      width: 17px;
+      height: 17px;
+    }
+
+    & h4 {
+      margin-left: 20px;
+      color: hsl(300, 43%, 22%);
+    }
+  }
+
+  .line2 {
+    margin-left: 40px;
+  }
+  .line3 {
+    margin-left: 80px;
+  }
+}
+
+.box3 {
+  margin-top: 50px;
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.cnt {
+  padding: 20px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 8px;
+  .prt {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    & img {
+      width: 40px;
+      border-radius: 50%;
+    }
+
+    & p {
+      padding: 0%;
+    }
+  }
+
+  .prt1 {
+    margin-bottom: 20px;
+    & h3 {
+      color: hsl(300, 24%, 96%);
+      font-weight: 500;
+      font-size: 16px;
+    }
+    & p {
+      font-size: 15px;
+      margin-top: 4px;
+      color: hsl(300, 38%, 54%);
+    }
+  }
+
+  .prt2 {
+    color: hsl(300, 24%, 96%);
+    line-height: 20px;
+  }
+}
+
+.cnt1 {
+  margin-bottom: 40px;
+}
+
+.cnt2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-right: 30px;
+}
+
+.cnt3 {
+  margin-top: 20px;
+}
