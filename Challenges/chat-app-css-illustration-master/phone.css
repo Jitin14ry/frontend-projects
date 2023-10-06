@@ -1,0 +1,32 @@
+.container{
+  flex-direction: column;
+    margin: 50px 0px;
+}
+
+
+.right{
+    text-align: center;
+    padding: 0px;
+    & p{
+        padding: 0px 70px;
+        margin-bottom: 50px;
+    }
+}
+
+.purple{
+    position: absolute;
+    height: 100vh;
+    width: 27rem;
+    z-index: -1;
+    background-image: linear-gradient(
+      hsl(287, 87%, 34%),
+      hsl(284, 90%, 37%)
+    );
+    border-radius: 0px 0px 50% 45%;
+    left: -15.5rem;
+    top: 0;
+}
+
+.grey{
+    display: none;
+}
