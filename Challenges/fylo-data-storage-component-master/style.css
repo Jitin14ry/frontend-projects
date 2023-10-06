@@ -19,9 +19,9 @@ body {
 }
 
 .img {
-    .phone-bg{
-        display: none;
-    }
+  .phone-bg {
+    display: none;
+  }
   .desktop-bg {
     z-index: -1;
     position: absolute;
@@ -119,26 +119,26 @@ body {
       font-weight: bold;
     }
   }
-}
 
-.left {
-  position: absolute;
-  width: 110px;
-  background-color: white;
-  padding: 10px;
-  /* bottom: 0; */
-  right: 26%;
-  border-radius: 10px 10px 0px 10px;
-  & span {
-    font-size: 28px;
-    font-weight: bolder;
-    margin-right: 8px;
-    color: black;
+  .left {
+    position: absolute;
+    width: 110px;
+    background-color: white;
+    padding: 10px;
+    right: 26%;
+    top: 35%;
+    border-radius: 10px 10px 0px 10px;
+    & span {
+      font-size: 28px;
+      font-weight: bolder;
+      margin-right: 8px;
+      color: black;
+    }
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: hsl(240, 1%, 60%);
   }
-  display: flex;
-  align-items: center;
-  font-size: 10px;
-  color:hsl(240, 1%, 60%) ;
 }
 
 .triangle {

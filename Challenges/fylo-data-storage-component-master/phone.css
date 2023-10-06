@@ -21,28 +21,30 @@
   gap: 0;
 }
 
-.left {
-  position: absolute;
-  width: 120px;
-  background-color: white;
-  padding: 15px 10px 15px 25px;
-  bottom: 13%;
-  right: 31%;
-  border-radius: 10px ;
+
+.box1 {
+  width: 250px;
+  margin: 20px;
 }
 
-.box1{
-    width: 250px;
-    margin: 20px;
+.box2 {
+  width: 250px;
+  margin: 20px;
+  margin-top: -1%;
+  padding-bottom: 20px;
+  .left{
+    position: absolute;
+    width: 120px;
+    background-color: white;
+    padding: 15px 10px 15px 25px;
+    top: 70%;
+    /* bottom: 13%; */
+    /* right: 31%; */
+    border-radius: 10px;
+  }
+  
 }
 
-.box2{
-    width: 250px;
-    margin: 20px;
-    margin-top: -1%;
-    padding-bottom: 20px;
-}
-
-.triangle{
-    display: none;
+.triangle {
+  display: none;
 }
