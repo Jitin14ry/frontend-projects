@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Raleway;
+
+  & p {
+    font-size: 14px;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(229, 57%, 11%);
+}
+
+.img {
+    .phone-bg{
+        display: none;
+    }
+  .desktop-bg {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 50vh;
+  }
+}
+.container {
+  display: flex;
+  gap: 25px;
+}
+
+.box1 {
+  width: 250px;
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
+  border-top-right-radius: 90px;
+}
+
+.line1 {
+  & img {
+    width: 115px;
+  }
+}
+.line2 {
+  display: flex;
+  gap: 15px;
+  .img {
+    background-color: hsl(229, 57%, 11%);
+    width: 40px;
+    height: 39px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  & img {
+    width: 20px;
+    height: 19px;
+  }
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 120px;
+  margin-top: 39px;
+  border-radius: 10px;
+  padding: 0px 30px;
+  background-color: hsl(228, 56%, 26%);
+
+  & p {
+    color: hsl(243, 100%, 93%);
+    & span {
+      font-weight: bold;
+    }
+  }
+  .line {
+    background-color: hsl(229deg 39.64% 15.69%);
+    height: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1px;
+  }
+  .ln {
+    width: 73%;
+    height: 13px;
+    display: flex;
+    margin-top: 1.2px;
+    margin-left: 0.8px;
+    border-radius: 10px;
+    justify-content: end;
+    align-items: center;
+    background: linear-gradient(hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    & img {
+      filter: invert(100%);
+    }
+  }
+  .limit {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    & span {
+      color: hsl(243, 100%, 93%);
+      font-weight: bold;
+    }
+  }
+}
+
+.left {
+  position: absolute;
+  width: 110px;
+  background-color: white;
+  padding: 10px;
+  /* bottom: 0; */
+  right: 26%;
+  border-radius: 10px 10px 0px 10px;
+  & span {
+    font-size: 28px;
+    font-weight: bolder;
+    margin-right: 8px;
+    color: black;
+  }
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color:hsl(240, 1%, 60%) ;
+}
+
+.triangle {
+  position: absolute;
+  right: 26%;
+  top: 44%;
+  border-left: 25px solid transparent;
+  border-top: 35px solid white;
+}

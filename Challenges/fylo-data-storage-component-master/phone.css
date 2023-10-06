@@ -1,0 +1,48 @@
+.img {
+  .phone-bg {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .desktop-bg {
+    display: none;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+}
+
+.left {
+  position: absolute;
+  width: 120px;
+  background-color: white;
+  padding: 15px 10px 15px 25px;
+  bottom: 13%;
+  right: 31%;
+  border-radius: 10px ;
+}
+
+.box1{
+    width: 250px;
+    margin: 20px;
+}
+
+.box2{
+    width: 250px;
+    margin: 20px;
+    margin-top: -1%;
+    padding-bottom: 20px;
+}
+
+.triangle{
+    display: none;
+}
