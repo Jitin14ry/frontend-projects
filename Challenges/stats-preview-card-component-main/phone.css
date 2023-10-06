@@ -1,10 +1,5 @@
-.main{
-  text-align: center;
-}
-
 .box{
-  grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 2em;
 }
-
-
-
