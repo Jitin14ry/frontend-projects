@@ -1,0 +1,26 @@
+body {
+    padding: 0px 100px;
+  }
+
+.line1 {
+  padding: 0px;
+  margin-top: 100px;
+}
+
+.line2 {
+  flex-direction: column;
+}
+
+.bigbox {
+  .line1 {
+    .p1 {
+      padding: 0px 0px;
+      text-align: center;
+      color: hsl(229, 6%, 66%);
+    }
+  }
+
+  .line2{
+    padding-bottom: 70px;
+  }
+}
