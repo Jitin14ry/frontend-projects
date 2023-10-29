@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  font-size: 16px
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.header img {
+  width: 190px;
+}
+
+.main {
+  display: flex;
+  padding-top: 50px;
+  max-width: 1250px; /* Changed width to max-width for responsiveness */
+
+
+  .left img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  }
+
+  .right {
+    flex: 1; /* Allow the right side to grow as needed */
+  }
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+
+  & h1 {
+    padding-right: 100px;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+  }
+
+  & p {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #e2d8d8;
+  }
+
+  .btn {
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    color: hsl(257, 40%, 49%);
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+
+  & img {
+    filter: invert(1);
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  } 
+
+  .header img{
+    width: 50vw;
+  }
+
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+    max-width: 425px;
+    text-align: center;
+
+    .right {
+          /* width: 90vw; */
+      padding: 0%;
+      padding-top: 50px;
+
+      & p{
+          padding: 10px;
+      }
+    }
+  }
+
+  .right {
+    & h1 {
+      padding-right: 0px;
+    }
+
+    .btn {
+        margin: 0 auto; /* Center horizontally */
+        display: flex;
+        justify-content: center; /* Center horizontally within the button */
+        align-items: center; /* Center vertically within the button */
+      }
+
+    
+  }
+
+  .footer {
+    justify-content: center;
+  }
+}
