@@ -102,9 +102,9 @@ body {
         padding: 20px;
     }
     .main{
-        display: flex;
-        flex-direction: column;
-        height: 600px;
+        display: grid;
+        
+        max-height: 100vh;
     }
     .line2{
         display: flex;
@@ -112,7 +112,16 @@ body {
     }
 
     .box3{
-        padding: 30px;
+        /* padding-rig: 30px; */
+        height: 210px;
         margin-bottom: 20px;
+
+    }
+
+    .box1{
+        height: 210px;
+    }
+    .box2{
+        height: 210px;
     }
 }
