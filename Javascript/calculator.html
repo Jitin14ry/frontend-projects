@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice set 2</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+      }
+      .calculator {
+        border: 1px solid grey;
+        border-radius: 5px;
+        width: 200px;
+        text-align: center;
+        padding: 10px;
+      }
+      #area{
+        width: 97%;
+        height: 35px;
+        font-size: larger;
+        font-weight: 600;
+      }
+      .inputs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px 0px;
+      }
+      .int {
+        background-color: rgb(195, 191, 191);
+        width: 50px;
+        height: 50px;
+        border: 1px solid rgb(159, 157, 157);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1px 2px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" name="" id="area" readonly />
+      <div class="inputs">
+        <button class="int" onclick="displayValue = ' ' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">C</button>
+        <button class="int" onclick="displayValue += '1' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">1</button>
+        <button class="int" onclick="displayValue += '2' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">2</button>
+        <button class="int" onclick="displayValue += '+' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">+</button>
+        <button class="int" onclick="displayValue += '3' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">3</button>
+        <button class="int" onclick="displayValue += '4' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">4</button>
+        <button class="int" onclick="displayValue += '-' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">-</button>
+        <button class="int" onclick="displayValue += '5' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">5</button>
+        <button class="int" onclick="displayValue += '6' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">6</button>
+        <button class="int" onclick="displayValue += '*' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">*</button>
+        <button class="int" onclick="displayValue += '7' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">7</button>
+        <button class="int" onclick="displayValue += '8' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">8</button>
+        <button class="int" onclick="displayValue += '/' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">/</button>
+        <button class="int" onclick="displayValue = eval(displayValue) ; 
+        document.querySelector('#area').value = displayValue ;
+        ">=</button>
+        <button class="int" onclick="displayValue += '9' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">9</button>
+        <button class="int" onclick="displayValue += '0' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">0</button>
+        <button class="int" onclick="displayValue += '.' ; 
+        document.querySelector('#area').value = displayValue ;
+        ">.</button>
+      </div>
+    </div>
+
+    <script>
+        let displayValue = '' ;
+        document.querySelector('#area').value = displayValue ;
+    </script>
+  </body>
+</html>

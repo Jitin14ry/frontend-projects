@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Practice Set</title>
+
+    <style>
+      .btn1 {
+        background-color: lightgreen;
+        border: none;
+        border-radius: 10px;
+        padding: 20px;
+      }
+      .btn2 {
+        text-transform: uppercase;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 20px;
+      }
+      .btn3 {
+        background-color: lightgreen;
+        border: none;
+        border-radius: 10px;
+        padding: 20px;
+      }
+      .cart-summary{
+        font-weight: bolder;
+        font-size: 44px;
+      }
+    </style>
+  </head>
+  <body>
+    <button
+      class="btn1"
+      onclick="quantity = quantity + 1; document.querySelector('.cart-summary').innerHTML = `{ Your bag has ${quantity} item. }`"
+    >
+      Add to bag
+    </button>
+    <button
+      class="btn2"
+      onclick="quantity = quantity - 1; document.querySelector('.cart-summary').innerHTML = `{ Your bag has ${quantity} item. }`"
+    >
+      move to wishlist
+    </button>
+    <button
+      class="btn3"
+      onclick="quantity = quantity + 2; document.querySelector('.cart-summary').innerHTML = `{ Your bag has ${quantity} item. }`"
+    >
+      Add 1 + 1 Sale Item
+    </button>
+    <br /><br />
+    <div class="cart-summary"></div>
+
+    <script>
+      let quantity = 0;
+
+      document.querySelector(
+        ".cart-summary"
+      ).innerHTML = `{ Your bag has ${quantity} item. }`;
+    </script>
+  </body>
+</html>

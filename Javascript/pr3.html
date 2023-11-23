@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practice SEt 3 at 10hrs</title>
+</head>
+<body>
+    
+    <div class="array"></div>
+
+    <script>
+        // 1.
+
+        let array = [ 5 ,6 ]
+        function arr(){
+            console.log(array)
+        }
+        arr()
+
+        array.push(7 , 8 , 9)
+
+        arr()
+
+        array.unshift(4)
+        arr()
+
+        // 2.
+
+        
+        function getElement(array , pos){
+            return array[pos-1];
+        }
+
+        console.log(getElement(array , 2))
+
+        // 3. 
+
+        function usingSlice(){
+            return array.slice(0 , array.length)
+        }
+
+        console.log(usingSlice())
+
+        // 4.
+
+        
+        
+    </script>
+    
+</body>
+</html>

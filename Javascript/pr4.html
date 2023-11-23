@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn{
+            width: 150px;
+            height: 50px;
+            background-color: red;
+            border: none;
+            font-size: larger;
+            border-radius: 10px;
+        }
+        .btn-after{
+            width: 250px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <button class="btn" >Click  Me</button> -->
+    <!-- onclick="setTimeout(doubleSize , 2000)" -->
+</body>
+
+<script>
+
+    // 1.
+
+    let multiply  = ( num1 , num2) => {
+        return num1*num2 ;
+    }
+    
+    // console.log(multiply(8 , 5));
+
+
+    // 2.
+
+    printHello = () => {
+        console.log('Hello')
+    }
+
+    let runtwice = inputFunc =>{
+        inputFunc();
+        inputFunc();
+        inputFunc();
+        inputFunc();
+    }
+
+    // (runtwice(printHello))
+
+    // 3.
+
+    // let buttonElemnet = document.querySelector('.btn').addEventListener('click' , event =>{
+    //     setTimeout(doubleSize , 2000)
+    // })
+
+    // function doubleSize(){
+    //     let doubleElement = document.querySelector('.btn');
+    //     doubleElement.classList.add('btn-after');
+    // }
+
+    // 4.
+
+        let arr = [ 2 , 9  , 6 , 8, 9];
+        let sum = 0;
+
+        arr.forEach(num => {
+            sum += num
+        });
+
+        console.log(sum)
+
+    // 5.
+
+        let squares = arr.map( num => num*num)
+
+        console.log(squares);
+    
+
+
+
+</script>
+
+</html>

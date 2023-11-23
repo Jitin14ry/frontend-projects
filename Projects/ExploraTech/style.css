@@ -9,6 +9,64 @@ body {
   /* background-color: beige; */
   background-color: #e6f7ff;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body.dialog-open {
+  overflow-y: hidden;
+  & .dialog-wrapper {
+    display: flex;
+  }
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 440px));
+  justify-content: space-between;
+  row-gap: 32px;
+  margin: 2em;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  align-items: start;
+  border: 2px solid;
+  padding: 16px;
+  border-radius: 16px;
+  font-size: 1.25em;
+  & span {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+  }
+  & h3{
+    flex: 1;
+  }
+  & small {
+    background: #494343;
+    color: #fff;
+    padding: 0.25em 0.5em;
+    border-radius: 16px;
+  }
+  & button {
+    all: unset;
+    cursor: pointer;
+    padding: 0.25em 0.5em;
+    border: 1px dotted;
+    border-radius: 16px;
+    transition-duration: 300ms;
+    &:hover{
+      background: #000;
+      color: white;
+    }
+  }
 }
 
 .head {
@@ -17,7 +75,8 @@ body {
   padding: 10px 0;
   height: 100%;
   width: 100%;
-  position: relative;
+  position: sticky;
+  top: 0;
   /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);  */
 }
 
@@ -74,6 +133,14 @@ body {
 }
 
 .navigation ul li:hover {
+  & a {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.464);
+    border-radius: 20px;
+  }
+}
+
+.navigation ul li.active {
   scale: 1.05;
   & a {
     color: black;
@@ -264,4 +331,31 @@ body {
     width: 30px;
     margin-right: 8px;
   }
+}
+
+dialog {
+  width: min(100vw, 700px);
+  max-height: 60vmin;
+  box-sizing: border-box;
+  border-radius: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+
+  & .card {
+    width: 100%;
+    padding: 3em 1em;
+    height: 100%;
+  }
+
+  & .close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+  
 }

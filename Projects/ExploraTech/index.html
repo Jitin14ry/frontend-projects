@@ -29,13 +29,13 @@
         </div>
         <nav class="navigation nav-links active" id="nav-links">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Tutorials</a></li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <!-- <li><a href="#">Tutorials</a></li> -->
             <!-- <li><a href="#">Blog</a></li> -->
             <!-- <li><a href="#">Resources</a></li> -->
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
             <!-- <li><a href="#"><i class="fa-regular fa-circle-question"></i></a></li> -->
             <!-- <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/menu--v1.png" alt="menu--v1"/> -->
             <i class="fa-solid fa-bars" style="color: #ffffff"></i>
@@ -139,7 +139,7 @@
       <img
         src="data:image/png;base64,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"
       />
-      <h2><a href="#">Get Started Now!</a></h2>
+      <h2><a href="project.html">Get Started Now!</a></h2>
     </div>
     <div class="footer">
       <div class="start">

@@ -1,0 +1,272 @@
+[
+    {
+      "title": "ExploraTech - An online platform designed to support engineering students in developing their project",
+      "objective": "The primary objective of ExploraTech is to provide a comprehensive online platform catering to engineering students. The platform aims to deliver detailed project descriptions, step-by-step explanations, and downloadable source code for a wide range of engineering projects. The goal is to empower students by offering a rich repository of projects, enabling them to gain a profound understanding of each project's intricacies. Through a user-friendly interface, ExploraTech seeks to enhance the learning experience, fostering practical skills in HTML, CSS, and JavaScript. The platform's ultimate objective is to contribute to the educational journey of engineering students by providing valuable resources and fostering a hands-on approach to project development.",
+      "outcome": "Product",
+      "skills": "HTML, CSS, JavaScript"
+    },
+    {
+      "title": "Polling System using Blockchain",
+      "objective": "The objective of the Polling System using Blockchain project is to conduct in-depth research and develop an analytical paper focusing on securing polling processes through the Ethereum blockchain. The project aims to explore and document the methodology for implementing a secure and transparent polling system using blockchain technology. The ultimate goal is to contribute valuable insights to the field of secure and tamper-proof voting systems, with a particular emphasis on Ethereum-based solutions.",
+      "outcome": "Patent",
+      "skills": "Ethereum Wallet"
+    },
+    {
+      "title": "DiaAnalytica: Enhancing Diabetes Diagnosis and Treatment",
+      "objective": "To write a research paper on healthcare data analytics project focused on improving diabetes diagnosis through the analysis of electronic health records and glucose monitoring data. The project involves leveraging data preprocessing, feature engineering techniques, and machine learning algorithms to enhance the accuracy and efficiency of diabetes diagnosis in a clinical setting.",
+      "outcome": "Research paper",
+      "skills": "Data preprocessing, Feature engineering techniques, Machine learning algorithms"
+    },
+    {
+      "title": "WaterQEE (Water Quality Estimation using Google Earth Engine)",
+      "objective": "The Water Quality Estimation App is a mobile application designed to provide users with real-time estimates of water quality parameters using satellite imagery and the power of Google Earth Engine. The project's objective is to develop a user-friendly and informative product, integrating skills in Flutter, Django, Google Earth Engine, Google Maps, Figma, and MySql to ensure accurate water quality assessment and monitoring.",
+      "outcome": "Product",
+      "skills": "Flutter, Django, Google Earth Engine, Google Maps, Figma, MySql"
+    },
+    {
+      "title": "Cloud Cost Optimization Dashboard",
+      "objective": "To develop a dashboard for optimizing cloud costs and managing cloud resources efficiently. The project focuses on utilizing analytical skills, data visualization techniques, and programming skills to create a user-friendly tool for businesses to monitor and optimize their cloud expenditure. The skills involved include Analytical Skills, Data Visualization, Programming Skills, Cloud Cost Management, and Cloud Platform Knowledge.",
+      "outcome": "Product",
+      "skills": "Analytical Skills, Data Visualization, Programming Skills, Cloud Cost Management, Cloud Platform Knowledge"
+    },
+    {
+      "title": "Detecting Brain Tumors and Alzheimer’s Using Python",
+      "objective": "Study and analyze various existing detection techniques and design new ones based on the outcome. This case study involves utilizing Python, Machine Learning, and Medical Imaging Analysis skills to explore and contribute to the field of early detection of brain tumors and Alzheimer's disease.",
+      "outcome": "Case Study",
+      "skills": "Python, Machine Learning, Medical Imaging Analysis"
+    },
+    {
+      "title": "Smart Health Prediction Using Data Mining",
+      "objective": "To create a system that allows users to get instant guidance on their health issues through an intelligent healthcare system online. The project aims to develop a research paper focusing on the application of data mining and SQL skills to provide users with personalized health predictions and guidance.",
+      "outcome": "Research paper",
+      "skills": "Data mining, SQL"
+    },
+    {
+      "title": "Titanic Survival Project",
+      "objective": "A beginner’s project on Kaggle that deals with the Titanic disaster and involves research paper and machine learning. This project involves using datasets, machine learning, and clustering techniques to analyze and predict survival outcomes in the context of the Titanic disaster, culminating in a research paper.",
+      "outcome": "Research paper",
+      "skills": "Datasets, Machine learning, Clustering"
+    },
+    {
+      "title": "Enhancing Privacy in Social Media: A Comparative Study of Machine Learning Techniques",
+      "objective": "To investigate and compare various machine learning techniques for enhancing privacy in social media platforms. The project aims to contribute to the field of information security by evaluating and implementing machine learning, data mining, and privacy preservation techniques to enhance user privacy in social media environments.",
+      "outcome": "Product",
+      "skills": "Machine Learning, Data Mining, Information Security, Privacy Preservation, Social Media Analysis"
+    },
+    {
+      "title": "Intercom Over LAN",
+      "objective": "To implement Intercom over LAN, allowing voice data transmission over a local area network. This project involves utilizing VoIP skills to develop a patent-worthy system that facilitates voice communication over LAN, contributing to the field of communication technology.",
+      "outcome": "Patent",
+      "skills": "VoIP"
+    },
+    {
+      "title": "Fitness Tracer",
+      "objective": "To create a web-based fitness application that allows users to track their workouts, set fitness goals, and monitor progress. This research paper project aims to explore and document the development of a fitness tracking system, involving skills in web development, backend development, database management, user authentication and security, as well as APIs and integrations.",
+      "outcome": "Research paper",
+      "skills": "Web Development, Backend Development, Database Management, User Authentication and Security, APIs and Integrations"
+    },
+    {
+      "title": "Wifi-based Face Attendance System",
+      "objective": "To create a web-based fitness application that allows users to track their workouts, set fitness goals, and monitor progress. This research paper project aims to explore and document the development of a wifi-based face attendance system, involving skills in HTML, CSS, JavaScript, machine learning, EJS, Java, and XML.",
+      "outcome": "Research paper",
+      "skills": "HTML, CSS, JavaScript, Machine Learning, EJS, Java, XML"
+    },
+    {
+      "title": "Geolocation-based Field Guide",
+      "objective": "To create a digital field guide that allows users to discover and learn about the flora and fauna in a particular geographical area. This research paper project aims to explore and document the development of a geolocation-based field guide, involving skills in web development and geolocation services, as well as backend development.",
+      "outcome": "Research paper",
+      "skills": "Web Development, Geolocation Services, Backend Development"
+    },
+    {
+      "title": "Smart Parking System using IoT",
+      "objective": "To build a system for smart parking using IoT technology, including literature review, prototype building, and paper writing. This research paper project aims to explore and document the development of a smart parking system, involving skills in the basics of IoT.",
+      "outcome": "Research paper",
+      "skills": "Basics of IoT"
+    },
+    {
+      "title": "IoT-based Water Quality Management System using Arduino",
+      "objective": "To develop a water quality management system using IoT and Arduino, including literature review, prototype building, and paper writing. This research paper project aims to explore and document the development of an IoT-based water quality management system, involving skills in the basics of IoT.",
+      "outcome": "Research paper",
+      "skills": "Basics of IoT"
+    },
+    {
+      "title": "Data Logger of Brain Parameters in Google Sheets using Mindwave Mobile with Raspberry Pi",
+      "objective": "To create a data logger for brain parameters using Mindwave Mobile and Raspberry Pi, including literature review, prototype building, and paper writing. This research paper project aims to explore and document the development of a data logger for brain parameters, involving skills in the basics of IoT.",
+      "outcome": "Research paper",
+      "skills": "Basics of IoT"
+    },
+    {
+      "title": "Wearable Computer With Temperature Distance Sensors",
+      "objective": "To develop a wearable computer with temperature and distance sensors, including literature review, prototype building, and paper writing. This research paper project aims to explore and document the development of a wearable computer, involving skills in the basics of IoT.",
+      "outcome": "Research paper",
+      "skills": "Basics of IoT"
+    },
+    {
+      "title": "Blockchain Rental Property System aligned with Smart Contracts",
+      "objective": "To design a Blockchain Rental Property System with Smart Contracts. This project focuses on leveraging skills in Distributed Ledger Technology to develop a secure and efficient rental property system aligned with smart contract principles.",
+      "outcome": "Product",
+      "skills": "Distributed Ledger Technology"
+    },
+    {
+      "title": "IoT Based Home Automation with Augmented Reality",
+      "objective": "To create an IoT-based home automation system with augmented reality features. This project aims to develop a multifunctional product by integrating IoT, AR, Cloud, IoT Programming, and Component Understanding.",
+      "outcome": "Product",
+      "skills": "IoT, AR, Cloud, IoT Programming, Component Understanding"
+    },
+    {
+      "title": "NLP Text-QA Platform",
+      "objective": "To develop a platform for text understanding and question-answering using natural language processing techniques. This research paper project aims to explore and document the development of an NLP-based platform, involving skills in Natural Language Processing, Machine Learning, Python, Data Processing and Analysis, and Software Development.",
+      "outcome": "Research paper",
+      "skills": "Natural Language Processing, Machine Learning, Python, Data Processing and Analysis, Software Development"
+    },
+    {
+      "title": "Image/Web Scrapper",
+      "objective": "To create a web scraper for automating web scraping tasks. This research paper project aims to explore and document the development of an image/web scraper, involving skills in Python, HTML, CSS, MongoDB, and Flask.",
+      "outcome": "Research paper",
+      "skills": "Python, HTML, CSS, MongoDB, Flask"
+    },
+    {
+      "title": "Detecting and deriving desired output from large dataset using data analytical skills",
+      "objective": "To perform data analysis using machine learning techniques. This project aims to leverage skills in Advanced Excel, DBMS, SQL, Data Analytics, and Python to analyze large datasets and derive meaningful insights.",
+      "outcome": "Product",
+      "skills": "Advanced Excel, DBMS, SQL, Data Analytics, Python"
+    },
+    {
+      "title": "Learning Skills and Applying for Bid as a Freelancer",
+      "objective": "To upgrade life skills for people interested in freelancing. This research paper project aims to explore and document the development of a comprehensive guide for learning and applying skills required for freelancing, involving skills in Python, Front-end Developer, Backend Developer, IoT, HTML, and CSS.",
+      "outcome": "Research paper",
+      "skills": "Python, Front-end Developer, Backend Developer, IoT, HTML, CSS"
+    },
+    {
+      "title": "E-commerce Recommendation Engine",
+      "objective": "To develop a recommendation engine for e-commerce businesses. This project aims to create a product by integrating skills in Data Analysis, Machine Learning, Programming Languages (Python, R), Statistical Modeling and Algorithms, Database Management, SQL, and E-commerce Platforms.",
+      "outcome": "Product",
+      "skills": "Data Analysis, Machine Learning, Programming Languages (Python, R), Statistical Modeling and Algorithms, Database Management, SQL, E-commerce Platforms"
+    },
+    {
+      "title": "Building your own GPT code assistant",
+      "objective": "To design a GPT-based code assistant and write a research paper about it. This research paper project aims to explore and document the development of a GPT-based code assistant, involving skills in Deep Learning and NLP.",
+      "outcome": "Research paper",
+      "skills": "Deep Learning, NLP"
+    },
+    {
+      "title": "Meal Planner",
+      "objective": "To create a web app that helps users plan personalized and healthy meal plans based on their dietary preferences, nutritional requirements, and budget. This research paper project aims to explore and document the development of a meal planner app, involving skills in the MERN Stack, SQL, Machine Learning, API Integration, Google Firebase, Google Cloud Console, and Figma.",
+      "outcome": "Research paper",
+      "skills": "MERN Stack, SQL, Machine Learning, API Integration, Google Firebase, Google Cloud Console, Figma"
+    },
+    {
+      "title": "AI-Verse: An AI-Powered Multifunctional App for AI Art Generation, OCR, and Chatbot Integration",
+      "objective": "To develop a multifunctional mobile application empowered by artificial intelligence, focusing on AI art generation, OCR, and chatbot integration. This research paper project aims to explore and document the development of the AI-Verse app, involving skills in App Development (Android/iOS/Flutter Development), Artificial Intelligence, Machine Learning, Rest API's, and UI/UX Designing.",
+      "outcome": "Research paper",
+      "skills": "App Development (Android/iOS/Flutter Development), Artificial Intelligence, Machine Learning, Rest API's, UI/UX Designing"
+    },
+    {
+      "title": "Bookmarks Keeper Application",
+      "objective": "To create an application for managing and organizing bookmarks. This research paper project aims to explore and document the development of a bookmarks keeper application, involving skills in Linux commands, Conditional Statements, Positional Parameters, and SQLite.",
+      "outcome": "Research paper",
+      "skills": "Linux commands, Conditional Statements, Positional Parameters, SQLite"
+    },
+    {
+      "title": "Kubernetes Application",
+      "objective": "To familiarize with cloud application development and the move from monolithic programs to distributed systems. This research paper project aims to explore and document the development of a Kubernetes application, involving skills in Cloud Application Development, Monolithic Programs, and Distributed Systems.",
+      "outcome": "Research paper",
+      "skills": "Cloud Application Development, Monolithic Programs, Distributed Systems"
+    },
+    {
+      "title": "Library Management System: A Real-Time Application",
+      "objective": "To build a real-time Library Management System with CRUD activities and other functionalities.",
+      "outcome": "Research paper",
+      "skills": "Java Collections API, Serialization, Deserialization"
+    },
+    {
+      "title": "Face Aging using Conditional GANs with Keras Implementation",
+      "objective": "To implement a model for face aging using Conditional GANs with Keras.",
+      "outcome": "Research paper",
+      "skills": "Deep Learning, Neural Networks"
+    },
+    {
+      "title": "Your Own Social Network Business Idea",
+      "objective": "To create a clone of Instagram using Kotlin and Firebase.",
+      "outcome": "Research paper",
+      "skills": "Kotlin Advanced, Firebase"
+    },
+    {
+      "title": "An E-commerce Platform with Management and Analytical Solutions for Businesses",
+      "objective": "To develop an e-commerce platform with management and analytical solutions for businesses.",
+      "outcome": "Research paper",
+      "skills": "Full Stack Web Development, Android Development, Database Management, Git, UI and UX Design"
+    },
+    {
+      "title": "WaterQEE",
+      "objective": "To develop a mobile application for estimating water quality parameters using satellite imagery and Google Earth Engine.",
+      "outcome": "Product",
+      "skills": "Flutter, Django, Google Earth Engine, Google Maps, Figma, Postgresql"
+    },
+    {
+      "title": "Blogging Website using MERN Stack",
+      "objective": "To create a website for blogging using the MERN stack.",
+      "outcome": "Research paper",
+      "skills": "React, NodeJS, MongoDB, Web Development"
+    },
+    {
+      "title": "A Comprehensive Survey of Data Mining",
+      "objective": "To analyze and compare different data mining techniques used in medical applications.",
+      "outcome": "Product",
+      "skills": "Python, C"
+    },
+    {
+      "title": "Weather Reporting System",
+      "objective": "To develop an IoT weather forecasting system.",
+      "outcome": "Case Study",
+      "skills": "IoT Weather Forecasting"
+    },
+    {
+      "title": "Smart Parking System",
+      "objective": "To create a smart parking system that utilizes IR sensors to monitor parking spaces.",
+      "outcome": "Case Study",
+      "skills": "IoT Hardware and Software"
+    },
+    {
+      "title": "Smart Traffic Management System",
+      "objective": "To develop a smart traffic management system that can dynamically control traffic flow for emergency vehicles.",
+      "outcome": "Case Study",
+      "skills": "IoT Hardware and Software"
+    },
+    {
+      "title": "Spoiler Blocker Extension",
+      "objective": "To create a browser extension for blocking spoilers.",
+      "outcome": "Product",
+      "skills": "Artificial Intelligence"
+    },
+    {
+      "title": "Craftify: Empowering Artisans and Shoppers in the World of Handcrafted Products",
+      "objective": "To create an e-commerce platform connecting artisans and shoppers for handcrafted products.",
+      "outcome": "Product",
+      "skills": "HTML, CSS, Node.js, MongoDB, Python"
+    },
+    {
+      "title": "End-to-End Speech Emotion Recognition Project using ANN",
+      "objective": "To develop a project for speech emotion recognition using artificial neural networks.",
+      "outcome": "Research paper",
+      "skills": "Deep Learning, Neural Networks"
+    },
+    {
+      "title": "Zillow Home Value Prediction ML Project",
+      "objective": "To build a regression model for predicting home values using the Zillow dataset.",
+      "outcome": "Research paper",
+      "skills": "Machine Learning, Python"
+    },
+    {
+      "title": "BigMart Sales Prediction ML Project",
+      "objective": "To predict the sales of products in BigMart outlets using machine learning.",
+      "outcome": "Research paper",
+      "skills": "Machine Learning, Python"
+    },
+    {
+      "title": "A Case Study on Coronary Heart Disease using Machine Learning Techniques",
+      "objective": "To analyze and compare different data mining techniques used in the medical applications.",
+      "outcome": "Research paper",
+      "skills": "Machine Learning, Python"
+    }
+]  

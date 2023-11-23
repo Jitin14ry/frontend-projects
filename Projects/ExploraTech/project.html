@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width : 1260px)" href="phone.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+  </head>
+
+  <body>
+    <header class="head">
+      <div class="container">   
+        <div class="logo">
+          <img src="projectIMG/Explora11.png" alt="Logo" />
+        </div>
+        <div class="search">
+          <button type="submit" id="btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <input type="search" class="s1" placeholder="Search for projects" />
+        </div>
+        <nav class="navigation nav-links active" id="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="#">Projects</a></li>
+            <!-- <li><a href="#">Tutorials</a></li> -->
+            <!-- <li><a href="#">Blog</a></li> -->
+            <!-- <li><a href="#">Resources</a></li> -->
+            <li><a href="#">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <!-- <li><a href="#"><i class="fa-regular fa-circle-question"></i></a></li> -->
+            <!-- <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/menu--v1.png" alt="menu--v1"/> -->
+            <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+          </ul>
+        </nav>
+        <a href="#" class="nav-toggle" id="nav-toggle"><img width="35" height="35" src="https://img.icons8.com/ios-filled/50/menu--v6.png" alt="menu--v6"/></a>
+      </div>
+    </header>
+    
+    <div class="card-container">
+        <div class="card">
+            <span><h3>Project Title</h3>
+            <small>Project</small></span>
+            <b>Skills: HTML, CSS, JS</b>
+            <button>View details</button>
+        </div>
+    </div>
+      
+    <div class="footer">
+      <div class="start">
+        <img src="projectIMG\IMG_20220302_200158_230.JPG" alt="" />
+        <p1>ExploraTech</p1>
+        <p>Copyright © 2023 ExploraTech.com</p>
+      </div>
+      <div class="last">
+        <a href="#">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACvElEQVR4nO2ZTWsUQRCGn0P04pLE+3oQs1nBi/h1EPVg9GziX1GTP6CoR2MOGvHjP4gRsxtJBH+Cq7nHk27EGIyXtaWgGoaB+ejpWbsX9oUX9jBVXe9OVXVNN4wxRhRoA0tAF/gM7AOmJoov8dkBFnWt2nEO2Kgx6LL8CFysQ8AhYAX4G0CEUcraj4GJqiKOAu8DCjApbmhMzm8iRCqZAn4ADrsIWYkgaJPBZZfCDlkTpoAS29kyQmJMKZOitOhctAMH+AZoKtcKnm3lCVkKLKSZiOVYwbN38oR0RkjIep6Q7RqC6QPPgRuaqkeU8nseeAHsZtiuqQDh24J1vuQJ2fMQ8Bu4C0xSjCngntpUXW8vb4GqTndSLfE68Ez/tf3EQLgKXEu1+h2PdTNRVYTN7Vlgq4TNZqLrND3EZKJKOtk3cSUn97Nq6bLangcOQgqRmrBvwkVEUsyM+ngQSkhfi5aS6ZRFmbAF0xX+jFqESIu1hW08Oae+XoYQIvsE2p18hTxVXwshhEhdoC3WV4i0ZkE7hJCG2vyqQYj4EDRGXchP9TU56qnVC5la82qzWoOQJ+rrZgghMsWis5OvkKvq61XoDXHTQ4R8WtsN8UcIIUZHccFx4JvniPKwgn1tQg50FEcHwL6D7XfgktpeCD00mtQYP1PydFLS6YTayNfg14prZ8J4iJFR3GJOx46e7jPCT9qdbGHbN1FVhBnWp66kxn0t2iJMa038Gdan7raHY8tdnWJlADypE0BDfy9oi3XtTsb18CH0cZBx4Ls8IYsRBGhK8laekFYEARrHWS8T3QiCND6njBangUEEwZoMDspeK6B3diZSPsIBE5Gm2Jbr1Rt68RjTpU+35Gab+WaWA1/FDTSdKl9PJ3EKeB1ARAc4wxDQ0puidT3CqePgwVJ89XTHvl10tTbGGPwf/APThWw4L8JxcwAAAABJRU5ErkJggg=="
+        /></a>
+        <a href="#">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACd0lEQVR4nO2Zv2sUQRTHP+evwigSrCyiAWOpTXpBxcRcCkn8BVrZif+AjUJQSA5Jo4VpbMQiJtrE/CCojZ3YGEQx9nYaE6PRxOJWBp4Qwu7czuzb3Tm4L3zhmn1vPszsm7fvoKWWgtceoArUgGlgEfgO/BWb35+A58AI0CfPBKGKLGgSWAciR/8BJoAzEqsUXQDeeyw+yQvAYJEAR4BXigBb/QLoyhviHLCSI0QkXgUu5wFgzu9QAQDRFtc03x0TaKwEiEj8QAtmpESISHwnK8SlACAi8ZUs1emn0iLMffFQSraJux/YB7QDncBRYLRBjB/AYR8QrRL7EjiQIt/VFLHmXSHOK0HMAjtS5kwDYjyQFqKidGN/kyOEMsi7tFWsT2k3hh0gXEAioDdNwEklkGOWHN3Afcn1328dYo83gtjr2cXGVZjtFoiNjPF/A7ttIFXFTjZJj5Ry9NhAakpJXltyfCniHZxWSjKXEL8iX4saOaZsIJ8V74847VKKH8lnc6KWmgjkqw1ko4lA1rVBBqT522zbdKQ9wXcd85q1JmrZA+Q0Onri0QIlarFEENNDueT9aAs2WxLINmBNs/wOlwRySPvzt98j4HXpnza7y3Ihdsf4mkfeXhuIacR+eQQtuvyuAW2NtvlpE4BMkEI9TQByKg2IOccfAgZZwEFnAwapUuA4KC+QeTzUKVPxUEBWgIN4yjSE9QBA6sBFMup2ACBDKOleiSCjKOuGwzHTAKlr7kTcX2/LBYAsucx4s3SqMzmCTAEdFKh+y5jTB+SNzJ1L03HgsYxJXUFWZfJoYgQjs8iTwE0pDHHaCTwDbgEn5JmWWiJg/QOlYrQmouYwLQAAAABJRU5ErkJggg=="
+        /></a>
+        <a href="#">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC2ElEQVR4nO2ZW4hNURjHf+Moxj2XyaUkREwywhNlKLdCFCfUFG/uSjEKD+LJLTXnhShvQ5S8MIkXTS4vPJCoCUnCSDMalzOXs7TqU7vdnr332Xutszftf32dztlnrW/91u1b69uQKVOmTBXSNGAFsBVYA9QBOf4RDQeOAa8B5WFfgAsC6afxwCKvB3Owrw3A534AlMt+Ayc9RmgKUAB+AfPcDiYAP4DNFiEOAaWQEMphN4HFwGGgFeiT3697OTkgD4vAcgsQDREAlI99BGq8HN12DelGgxCTgZ8GIdqBWql7GLDS6eyd6896+PYZArliEOIZkAd2AM1AF7DK6ayjn4JXgZExIEbICJsC6XN9P+h2+Mmn8BtgWUSQvOG1oRx2ysvhoxAFb8jWV46OWwAoAUf6c3gmZCV6mlxyLLYgXTQM0QOs93O4MEKv3AW2A6N96m0yDPI9TO/dj1h5t5Q9AawFJgFVjiBoEqQjDMhsg/t9Ubb0t4ZBPvgB/O09rS0eW1ya7KUfyEDgObAHGCcwJiOxSbsTNK3aHX9+HxBXkrRCEEhLChqpQtiuIJD9KWikCmH6BumrUUBnChqqfKwz7DW4MQWNVT52jZDKxQiKlbA8ZSYGWlPQaOVxNNGXqLI0CDifssDYRAzVyu3uW8IQJWBmFID50gP6LnFWomlvgiDNUUeiGviagumk5GQ9nRjanQIIBZwjpnIpOLa0AUMxIJ09eZgQRC+wBIPS6+VyxFRnHGvEknTu9ZZc/itxFKnCsnTCbbXklGwEzBYJyNY1QI78XRYg7slUtg6gMySPLU0nfYKwOhITgZ3AK0sAPaYWdh0wF5gqn/WSdCtIxsLmon4BLMCQaqTR3ZYb7U6yHQUGY0Ez5HBWtAxwGhhDBTRWXvA8NRihHwDbgCEkpFnAXnnp2BYyuusEwRN5vbwpIMGdmKrlglMvW7Fu6DpgqdxhdPI6Uyb+I/0BtL6/+Ljwfj8AAAAASUVORK5CYII="
+        /></a>
+        <a href="#">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADtklEQVR4nO2ZSWgVQRCGP2OCS3CJYoy7uCtiDi6o8aAIikvQi4oGvCiiRo2E6FXJQdxQg4LgUTx4cyPuHhVRD0bcsyDu4IJrTNTnSEMNPOfNm1czb2YSJD8UDNNT1fV3V1dX90AH/l8UAEuBfUAt8Bj4CLSKmOdH0ma+WQL0pp2gC1AGXAJ+A5ZPMToXgFViK3Z0AyqBVwGcTycvga1A17hILAAaQiTglHpgfpQEzNTXREjAKcdl5kNFf+BOjCQskVtAYVgkhst0W20kT8WHrNBP0qjVxtIAFAUl0bWNwsnyCLNAKfpoO3DecsjhICnWy+B2CbspwA7gWRbOmd1+G1As1cGBDN/P05LoptgnBruEoSH0A7gKVACzgNFAvsgYebcROAN8BTYDnR22ihWLXxVilYpRTLf75mlHy+PbAYr+zUB5oouy7Ah9o0pCkaL/F5lmpUwZ1+MiJFKi9GGll5FLSiPLIyRSrvThfDoDBT5K8eoIiRxT+vAL6OlmYKnSwGdZkFFhPPBT6Uupm4H9SmWT56PGSaUve92Ua5XK02Igskzpy1k35afKuMyNgchYJRFT0KbgvULRfBMHhiiJvHNTblUomm86xUBkoiMKPor8cfjT4qZsZ4rZUu+MAPoAA+XZljiIJCNXtoYC6dtUFYOSBjYFn6TxJnAXaJRQeiPPtqwgehz2iIrvScvAzFIKnkjjNUmxWyRPm4p1khw37VGJGjnS11BggmTKRVI575a7MPsIkIKL0rhLqsuDwCngOlAns/FBpnN1xLPRIqPdBDwAbgPngCNyFtrvVaZUKzOFkW8yU2FjncuC9pKdbkbm+jBgpBlYE1KomZJ8j08SRua4GeuuTMFOuSFryXnS0yBfBqMxQL8tXucie504xZxT1soGlM7wW+AEsEFGaiTQK8l2XznHmOvQKikvvgYgYImYkiotSj1SXomcwd8qw65KbihtFMq75iyct5JkYaa015RGsU7apwJfMpAwpNOhJAQy9eKLJyo8DJhcbpcQFyU07J84z4ErwOJMHQDrsyRSrr3duBckLn0gx6MPK4Pc9VOBzwQSLkYSIe4fGwKQSADT/XZ0JI2xT3KxNlgTpx4YFYBITZCO8qTu8tNRZ5/2/di+7PMC8B/09BnLfqG1+yCMP8DDgIdtSOS+nBhDQQ+pNOMmciWKf/F5UmInYiCSAA5FfdExWc4HURGpA2YQE3IlBTc4fvj7xeskfWNrU0zXTSnIkbLldFL54gelorswyz2pAx0gIvwFLXDNiM6zHVAAAAAASUVORK5CYII="
+        /></a>
+      </div>
+    </div>
+
+    <script>
+      const toggleButton = document.getElementById('nav-toggle');
+      const navLinks = document.getElementById('nav-links');
+
+      toggleButton.addEventListener('click', () => {
+        navLinks.classList.toggle('active')
+      })
+    </script>
+    <script src="./script.js"></script>
+  </body>
+</html>
