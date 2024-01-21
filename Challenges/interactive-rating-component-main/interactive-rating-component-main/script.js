@@ -2,6 +2,10 @@ let submit = document.querySelector(".btn");
 
 submit.addEventListener("click", (e) => {
   console.log("submit");
+  if(rate.innerHTML == ''){
+    alert("Please choose frst !")
+    return
+  }
   let element = document.querySelector(".hidden");
   element.classList.add("thankyou");
   element.classList.remove("hidden");
