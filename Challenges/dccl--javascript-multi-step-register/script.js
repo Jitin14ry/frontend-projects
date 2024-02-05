@@ -55,7 +55,7 @@ topics.addEventListener("submit", (e) => {
 });
 
 thrdbtn.addEventListener("click", (e) => {
-  localStorage.clear();
+  // localStorage.clear();
   name.innerHTML = " ";
   mail.innerText = " ";
   subjects.innerText = " ";
