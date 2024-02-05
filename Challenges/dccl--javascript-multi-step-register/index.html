@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img class="img1" src="blur-radial.svg" alt="" />
+    <img class="img2" src="blur-radial.svg" alt="" />
+    <div class="container1" id="cnt1">
+      <form  id="data">
+        <h3>Register</h3>
+        <div>
+          <p>Name</p>
+          <input class="input1" id="name" type="text" placeholder="enter your name" />
+        </div>
+        <div>
+          <p>Email</p>
+          <input class="input1" id="mail" type="email" placeholder="example@gmail.com" />
+        </div>
+        <div class="btn1">
+          <button>Continue</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container2" id="cnt2">
+      <h3>Which topics you are interested in?</h3>
+      <form id="topics">
+        <label>
+          <input class="input2" value="Software Development" id="checkbox1"  type="checkbox" />
+          <p class="sub1" id="sub1">Software Development</p>
+        </label>
+        <label>
+          <input class="input2" value="User Experience" id="checkbox2"  type="checkbox" />
+          <p class="sub2" id="sub2">User Experience</p>
+        </label>
+        <label>
+          <input class="input2" value="Graphic Design" id="checkbox3"  type="checkbox" />
+          <p class="sub3" id="sub3">Graphic Design</p>
+        </label>
+        <div class="btn2">
+          <button>Continue</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container3" id="cnt3">
+      <h3>Summary</h3>
+      <div>
+        <p>Name:</p>
+        <span id="show-name"></span>
+        <p>Email:</p>
+        <span id="show-id"></span>
+        <br />
+        <p>Topics:</p>
+        <span id="show-sub"></span>
+      </div>
+      <div class="btn3">
+        <button >Confirm</button>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>

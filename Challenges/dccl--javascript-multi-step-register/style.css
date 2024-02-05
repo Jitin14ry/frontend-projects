@@ -1,0 +1,173 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #121826;
+  overflow: hidden;
+}
+
+.img1 {
+  position: absolute;
+  top: -350px;
+  left: -300px;
+}
+
+.img2 {
+  position: absolute;
+  bottom: -350px;
+  right: -300px;
+}
+
+.container1 {
+  border: 2px solid grey;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 25rem;
+  width: 100%;
+  background-color: #212936;
+
+  & h3 {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    color: #e5e7eb;
+  }
+}
+
+div {
+  margin: 1.5rem;
+
+  & p {
+    padding: 0.4rem 0rem;
+    color: #a1a1a9;
+  }
+
+  & .input1 {
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 0.7rem;
+    border: 2px grey solid;
+    background-color: #212936;
+  }
+}
+
+.btn1 {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+}
+
+button {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 1.5rem;
+  border: none;
+  color: #fff;
+  background-color: #845eee;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+input {
+  color: #fff;
+}
+
+.container2 {
+  display: none;
+  border: 2px solid grey;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  max-width: 25rem;
+  width: 100%;
+  background-color: #212936;
+
+  & h3 {
+    font-size: 1.5rem;
+    margin: 0rem 0rem 1.5rem 0rem;
+    color: #e5e7eb;
+  }
+
+  & form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.65rem;
+  }
+
+  /* Add media query for smaller screens */
+  @media screen and (max-width: 600px) {
+    & form {
+      gap: 1rem;
+    }
+  }
+
+  & label {
+    display: flex;
+    gap: 1rem;
+    color: #a1a1a9;
+    background-color: #394150;
+    border: 1px grey solid;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+
+    &:has(input:checked) {
+      background-color: #652CD1;
+    }
+  }
+
+  & input {
+    display: none;
+  }
+
+  & .sub1,
+  .sub2,
+  .sub3 {
+    padding: 0rem;
+  }
+
+  & .btn2 {
+    margin: 0%;
+    cursor: pointer;
+    text-align: center;
+  }
+}
+
+.container3 {
+  display: none;
+  border: 2px solid grey;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 25rem;
+  width: 100%;
+  background-color: #212936;
+
+  & h3 {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    color: #e5e7eb;
+  }
+
+  & div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    justify-content: center;
+  }
+
+  & span {
+    color: #e5e7eb;
+  }
+
+  & .btn3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
